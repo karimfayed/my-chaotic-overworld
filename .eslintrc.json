@@ -1,0 +1,20 @@
+{
+  "env": {
+    "node": true
+  },
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "tsconfigRootDir": "./",
+    "project": ["./tsconfig.json"]
+  },
+  "rules": {
+    "no-unused-vars": ["error", { "vars": "all", "args": "all", "ignoreRestSiblings": false }]
+  },
+  "root": true
+}

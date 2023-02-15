@@ -1,0 +1,14 @@
+# Node
+node_modules/
+dist/
+package-lock.json
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out/
+
+# JetBrains IDE
+.idea/
+
+# Jest
+coverage/
